@@ -3,3 +3,19 @@
     padding-bottom: 94px;
 }
 
+.section__title {
+    color: var(--secondary-color);
+
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+}
+
+.section--no-padding-top {
+    padding-top: 0px;
+}
+
+.section--other-background {
+    background-color: var(--extra-color);
+}
