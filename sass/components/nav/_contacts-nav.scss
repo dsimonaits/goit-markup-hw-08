@@ -1,0 +1,32 @@
+.contacts-nav {
+    margin-left: auto;
+}
+
+.contacts-nav__item:last-child {
+    margin-left: 50px;
+}
+
+.contacts-nav__link {
+    display: flex;
+    align-items: center;
+    color: inherit;
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    list-style: none;
+
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+        color: var(--accent-color);
+        fill: var(--accent-color);
+    }
+
+}
+
+.contacts-nav__icon {
+    margin-right: 10px;
+}

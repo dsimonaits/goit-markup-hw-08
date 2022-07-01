@@ -1,0 +1,9 @@
+.subscribe__button {
+    @extend %button;
+    margin-left: 12px;
+}
+
+.icon-send {
+    margin-left: 10px;
+    fill: #ffffff;
+}

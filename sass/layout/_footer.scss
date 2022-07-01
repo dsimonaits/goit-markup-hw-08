@@ -1,0 +1,16 @@
+.footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+    height: 252px;
+
+    background-color: var(--grey-color);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.footer__container {
+    display: flex;
+    align-items: baseline;
+}
+
