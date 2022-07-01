@@ -26,7 +26,8 @@ body {
 }
 
 body {
-  font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif,
+    'Apple Color Emoji', 'Segoe UI Emoji';
 }
 
 hr {
@@ -47,7 +48,7 @@ code,
 kbd,
 pre,
 samp {
-  font-family: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;
+  font-family: ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
   font-size: 1em;
 }
 
@@ -92,9 +93,9 @@ select {
   text-transform: none;
 }
 
-[type=button],
-[type=reset],
-[type=submit],
+[type='button'],
+[type='reset'],
+[type='submit'],
 button {
   -webkit-appearance: button;
 }
@@ -125,7 +126,7 @@ progress {
   height: auto;
 }
 
-[type=search] {
+[type='search'] {
   -webkit-appearance: textfield;
   outline-offset: -2px;
 }
@@ -157,62 +158,90 @@ summary {
 
 /* raleway-regular - latin */
 @font-face {
-  font-family: "Raleway";
+  font-family: 'Raleway';
   font-style: normal;
   font-weight: 400;
-  src: url("../fonts/raleway-v27-latin-regular.eot");
+  src: url('../fonts/raleway-v27-latin-regular.eot');
   /* IE9 Compat Modes */
-  src: local(""), url("../fonts/raleway-v27-latin-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/raleway-v27-latin-regular.woff2") format("woff2"), url("../fonts/raleway-v27-latin-regular.woff") format("woff"), url("../fonts/raleway-v27-latin-regular.ttf") format("truetype"), url("../fonts/raleway-v27-latin-regular.svg#Raleway") format("svg");
+  src: local(''), url('../fonts/raleway-v27-latin-regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/raleway-v27-latin-regular.woff2') format('woff2'),
+    url('../fonts/raleway-v27-latin-regular.woff') format('woff'),
+    url('../fonts/raleway-v27-latin-regular.ttf') format('truetype'),
+    url('../fonts/raleway-v27-latin-regular.svg#Raleway') format('svg');
   /* Legacy iOS */
 }
 /* raleway-700 - latin */
 @font-face {
-  font-family: "Raleway";
+  font-family: 'Raleway';
   font-style: normal;
   font-weight: 700;
-  src: url("../fonts/raleway-v27-latin-700.eot");
+  src: url('../fonts/raleway-v27-latin-700.eot');
   /* IE9 Compat Modes */
-  src: local(""), url("../fonts/raleway-v27-latin-700.eot?#iefix") format("embedded-opentype"), url("../fonts/raleway-v27-latin-700.woff2") format("woff2"), url("../fonts/raleway-v27-latin-700.woff") format("woff"), url("../fonts/raleway-v27-latin-700.ttf") format("truetype"), url("../fonts/raleway-v27-latin-700.svg#Raleway") format("svg");
+  src: local(''), url('../fonts/raleway-v27-latin-700.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/raleway-v27-latin-700.woff2') format('woff2'),
+    url('../fonts/raleway-v27-latin-700.woff') format('woff'),
+    url('../fonts/raleway-v27-latin-700.ttf') format('truetype'),
+    url('../fonts/raleway-v27-latin-700.svg#Raleway') format('svg');
   /* Legacy iOS */
 }
 /* roboto-regular - latin_cyrillic */
 @font-face {
-  font-family: "Roboto";
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
-  src: url("../fonts/roboto-v30-latin_cyrillic-regular.eot");
+  src: url('../fonts/roboto-v30-latin_cyrillic-regular.eot');
   /* IE9 Compat Modes */
-  src: local(""), url("../fonts/roboto-v30-latin_cyrillic-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto-v30-latin_cyrillic-regular.woff2") format("woff2"), url("../fonts/roboto-v30-latin_cyrillic-regular.woff") format("woff"), url("../fonts/roboto-v30-latin_cyrillic-regular.ttf") format("truetype"), url("../fonts/roboto-v30-latin_cyrillic-regular.svg#Roboto") format("svg");
+  src: local(''),
+    url('../fonts/roboto-v30-latin_cyrillic-regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/roboto-v30-latin_cyrillic-regular.woff2') format('woff2'),
+    url('../fonts/roboto-v30-latin_cyrillic-regular.woff') format('woff'),
+    url('../fonts/roboto-v30-latin_cyrillic-regular.ttf') format('truetype'),
+    url('../fonts/roboto-v30-latin_cyrillic-regular.svg#Roboto') format('svg');
   /* Legacy iOS */
 }
 /* roboto-700 - latin_cyrillic */
 @font-face {
-  font-family: "Roboto";
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
-  src: url("../fonts/roboto-v30-latin_cyrillic-700.eot");
+  src: url('../fonts/roboto-v30-latin_cyrillic-700.eot');
   /* IE9 Compat Modes */
-  src: local(""), url("../fonts/roboto-v30-latin_cyrillic-700.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto-v30-latin_cyrillic-700.woff2") format("woff2"), url("../fonts/roboto-v30-latin_cyrillic-700.woff") format("woff"), url("../fonts/roboto-v30-latin_cyrillic-700.ttf") format("truetype"), url("../fonts/roboto-v30-latin_cyrillic-700.svg#Roboto") format("svg");
+  src: local(''),
+    url('../fonts/roboto-v30-latin_cyrillic-700.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/roboto-v30-latin_cyrillic-700.woff2') format('woff2'),
+    url('../fonts/roboto-v30-latin_cyrillic-700.woff') format('woff'),
+    url('../fonts/roboto-v30-latin_cyrillic-700.ttf') format('truetype'),
+    url('../fonts/roboto-v30-latin_cyrillic-700.svg#Roboto') format('svg');
   /* Legacy iOS */
 }
 /* roboto-500 - latin_cyrillic */
 @font-face {
-  font-family: "Roboto";
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
-  src: url("../fonts/roboto-v30-latin_cyrillic-500.eot");
+  src: url('../fonts/roboto-v30-latin_cyrillic-500.eot');
   /* IE9 Compat Modes */
-  src: local(""), url("../fonts/roboto-v30-latin_cyrillic-500.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto-v30-latin_cyrillic-500.woff2") format("woff2"), url("../fonts/roboto-v30-latin_cyrillic-500.woff") format("woff"), url("../fonts/roboto-v30-latin_cyrillic-500.ttf") format("truetype"), url("../fonts/roboto-v30-latin_cyrillic-500.svg#Roboto") format("svg");
+  src: local(''),
+    url('../fonts/roboto-v30-latin_cyrillic-500.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/roboto-v30-latin_cyrillic-500.woff2') format('woff2'),
+    url('../fonts/roboto-v30-latin_cyrillic-500.woff') format('woff'),
+    url('../fonts/roboto-v30-latin_cyrillic-500.ttf') format('truetype'),
+    url('../fonts/roboto-v30-latin_cyrillic-500.svg#Roboto') format('svg');
   /* Legacy iOS */
 }
 /* roboto-900 - latin_cyrillic */
 @font-face {
-  font-family: "Roboto";
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: 900;
-  src: url("../fonts/roboto-v30-latin_cyrillic-900.eot");
+  src: url('../fonts/roboto-v30-latin_cyrillic-900.eot');
   /* IE9 Compat Modes */
-  src: local(""), url("../fonts/roboto-v30-latin_cyrillic-900.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto-v30-latin_cyrillic-900.woff2") format("woff2"), url("../fonts/roboto-v30-latin_cyrillic-900.woff") format("woff"), url("../fonts/roboto-v30-latin_cyrillic-900.ttf") format("truetype"), url("../fonts/roboto-v30-latin_cyrillic-900.svg#Roboto") format("svg");
+  src: local(''),
+    url('../fonts/roboto-v30-latin_cyrillic-900.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/roboto-v30-latin_cyrillic-900.woff2') format('woff2'),
+    url('../fonts/roboto-v30-latin_cyrillic-900.woff') format('woff'),
+    url('../fonts/roboto-v30-latin_cyrillic-900.ttf') format('truetype'),
+    url('../fonts/roboto-v30-latin_cyrillic-900.svg#Roboto') format('svg');
   /* Legacy iOS */
 }
 .visually-hidden {
@@ -230,62 +259,90 @@ summary {
 
 /* raleway-regular - latin */
 @font-face {
-  font-family: "Raleway";
+  font-family: 'Raleway';
   font-style: normal;
   font-weight: 400;
-  src: url("../fonts/raleway-v27-latin-regular.eot");
+  src: url('../fonts/raleway-v27-latin-regular.eot');
   /* IE9 Compat Modes */
-  src: local(""), url("../fonts/raleway-v27-latin-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/raleway-v27-latin-regular.woff2") format("woff2"), url("../fonts/raleway-v27-latin-regular.woff") format("woff"), url("../fonts/raleway-v27-latin-regular.ttf") format("truetype"), url("../fonts/raleway-v27-latin-regular.svg#Raleway") format("svg");
+  src: local(''), url('../fonts/raleway-v27-latin-regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/raleway-v27-latin-regular.woff2') format('woff2'),
+    url('../fonts/raleway-v27-latin-regular.woff') format('woff'),
+    url('../fonts/raleway-v27-latin-regular.ttf') format('truetype'),
+    url('../fonts/raleway-v27-latin-regular.svg#Raleway') format('svg');
   /* Legacy iOS */
 }
 /* raleway-700 - latin */
 @font-face {
-  font-family: "Raleway";
+  font-family: 'Raleway';
   font-style: normal;
   font-weight: 700;
-  src: url("../fonts/raleway-v27-latin-700.eot");
+  src: url('../fonts/raleway-v27-latin-700.eot');
   /* IE9 Compat Modes */
-  src: local(""), url("../fonts/raleway-v27-latin-700.eot?#iefix") format("embedded-opentype"), url("../fonts/raleway-v27-latin-700.woff2") format("woff2"), url("../fonts/raleway-v27-latin-700.woff") format("woff"), url("../fonts/raleway-v27-latin-700.ttf") format("truetype"), url("../fonts/raleway-v27-latin-700.svg#Raleway") format("svg");
+  src: local(''), url('../fonts/raleway-v27-latin-700.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/raleway-v27-latin-700.woff2') format('woff2'),
+    url('../fonts/raleway-v27-latin-700.woff') format('woff'),
+    url('../fonts/raleway-v27-latin-700.ttf') format('truetype'),
+    url('../fonts/raleway-v27-latin-700.svg#Raleway') format('svg');
   /* Legacy iOS */
 }
 /* roboto-regular - latin_cyrillic */
 @font-face {
-  font-family: "Roboto";
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
-  src: url("../fonts/roboto-v30-latin_cyrillic-regular.eot");
+  src: url('../fonts/roboto-v30-latin_cyrillic-regular.eot');
   /* IE9 Compat Modes */
-  src: local(""), url("../fonts/roboto-v30-latin_cyrillic-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto-v30-latin_cyrillic-regular.woff2") format("woff2"), url("../fonts/roboto-v30-latin_cyrillic-regular.woff") format("woff"), url("../fonts/roboto-v30-latin_cyrillic-regular.ttf") format("truetype"), url("../fonts/roboto-v30-latin_cyrillic-regular.svg#Roboto") format("svg");
+  src: local(''),
+    url('../fonts/roboto-v30-latin_cyrillic-regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/roboto-v30-latin_cyrillic-regular.woff2') format('woff2'),
+    url('../fonts/roboto-v30-latin_cyrillic-regular.woff') format('woff'),
+    url('../fonts/roboto-v30-latin_cyrillic-regular.ttf') format('truetype'),
+    url('../fonts/roboto-v30-latin_cyrillic-regular.svg#Roboto') format('svg');
   /* Legacy iOS */
 }
 /* roboto-700 - latin_cyrillic */
 @font-face {
-  font-family: "Roboto";
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
-  src: url("../fonts/roboto-v30-latin_cyrillic-700.eot");
+  src: url('../fonts/roboto-v30-latin_cyrillic-700.eot');
   /* IE9 Compat Modes */
-  src: local(""), url("../fonts/roboto-v30-latin_cyrillic-700.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto-v30-latin_cyrillic-700.woff2") format("woff2"), url("../fonts/roboto-v30-latin_cyrillic-700.woff") format("woff"), url("../fonts/roboto-v30-latin_cyrillic-700.ttf") format("truetype"), url("../fonts/roboto-v30-latin_cyrillic-700.svg#Roboto") format("svg");
+  src: local(''),
+    url('../fonts/roboto-v30-latin_cyrillic-700.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/roboto-v30-latin_cyrillic-700.woff2') format('woff2'),
+    url('../fonts/roboto-v30-latin_cyrillic-700.woff') format('woff'),
+    url('../fonts/roboto-v30-latin_cyrillic-700.ttf') format('truetype'),
+    url('../fonts/roboto-v30-latin_cyrillic-700.svg#Roboto') format('svg');
   /* Legacy iOS */
 }
 /* roboto-500 - latin_cyrillic */
 @font-face {
-  font-family: "Roboto";
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
-  src: url("../fonts/roboto-v30-latin_cyrillic-500.eot");
+  src: url('../fonts/roboto-v30-latin_cyrillic-500.eot');
   /* IE9 Compat Modes */
-  src: local(""), url("../fonts/roboto-v30-latin_cyrillic-500.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto-v30-latin_cyrillic-500.woff2") format("woff2"), url("../fonts/roboto-v30-latin_cyrillic-500.woff") format("woff"), url("../fonts/roboto-v30-latin_cyrillic-500.ttf") format("truetype"), url("../fonts/roboto-v30-latin_cyrillic-500.svg#Roboto") format("svg");
+  src: local(''),
+    url('../fonts/roboto-v30-latin_cyrillic-500.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/roboto-v30-latin_cyrillic-500.woff2') format('woff2'),
+    url('../fonts/roboto-v30-latin_cyrillic-500.woff') format('woff'),
+    url('../fonts/roboto-v30-latin_cyrillic-500.ttf') format('truetype'),
+    url('../fonts/roboto-v30-latin_cyrillic-500.svg#Roboto') format('svg');
   /* Legacy iOS */
 }
 /* roboto-900 - latin_cyrillic */
 @font-face {
-  font-family: "Roboto";
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: 900;
-  src: url("../fonts/roboto-v30-latin_cyrillic-900.eot");
+  src: url('../fonts/roboto-v30-latin_cyrillic-900.eot');
   /* IE9 Compat Modes */
-  src: local(""), url("../fonts/roboto-v30-latin_cyrillic-900.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto-v30-latin_cyrillic-900.woff2") format("woff2"), url("../fonts/roboto-v30-latin_cyrillic-900.woff") format("woff"), url("../fonts/roboto-v30-latin_cyrillic-900.ttf") format("truetype"), url("../fonts/roboto-v30-latin_cyrillic-900.svg#Roboto") format("svg");
+  src: local(''),
+    url('../fonts/roboto-v30-latin_cyrillic-900.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/roboto-v30-latin_cyrillic-900.woff2') format('woff2'),
+    url('../fonts/roboto-v30-latin_cyrillic-900.woff') format('woff'),
+    url('../fonts/roboto-v30-latin_cyrillic-900.ttf') format('truetype'),
+    url('../fonts/roboto-v30-latin_cyrillic-900.svg#Roboto') format('svg');
   /* Legacy iOS */
 }
 h1,
@@ -338,7 +395,9 @@ img {
   text-align: center;
 }
 
-.modal-contact__button, .subscribe__button, .modal-button {
+.modal-contact__button,
+.subscribe__button,
+.modal-button {
   min-width: 200px;
   min-height: 50px;
   display: flex;
@@ -357,7 +416,12 @@ img {
   cursor: pointer;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal-contact__button:hover, .subscribe__button:hover, .modal-button:hover, .modal-contact__button:focus, .subscribe__button:focus, .modal-button:focus {
+.modal-contact__button:hover,
+.subscribe__button:hover,
+.modal-button:hover,
+.modal-contact__button:focus,
+.subscribe__button:focus,
+.modal-button:focus {
   background-color: #188ce8;
 }
 
@@ -396,15 +460,20 @@ img {
   border-radius: 4px;
   border: none;
   cursor: pointer;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.filter-button:hover, .filter-button:focus {
+.filter-button:hover,
+.filter-button:focus {
   color: var(--white-color);
   background-color: var(--accent-color);
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .filter-button.active {
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
   color: var(--white-color);
   background-color: var(--accent-color);
@@ -473,7 +542,7 @@ img {
   color: var(--accent-color);
 }
 .site-nav__link.active::after {
-  content: "";
+  content: '';
   display: inline-block;
   width: 100%;
   height: 4px;
@@ -484,7 +553,8 @@ img {
   background-color: var(--accent-color);
   border-radius: 2px;
 }
-.site-nav__link:hover, .site-nav__link:focus {
+.site-nav__link:hover,
+.site-nav__link:focus {
   color: var(--accent-color);
 }
 
@@ -507,7 +577,8 @@ img {
   list-style: none;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.contacts-nav__link:hover, .contacts-nav__link:focus {
+.contacts-nav__link:hover,
+.contacts-nav__link:focus {
   color: var(--accent-color);
   fill: var(--accent-color);
 }
@@ -539,14 +610,16 @@ img {
   fill: var(--icons-color);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.social-links__link--theme-light:hover, .social-links__link--theme-light:focus {
+.social-links__link--theme-light:hover,
+.social-links__link--theme-light:focus {
   background-color: var(--accent-color);
 }
 
 .social-links__icon {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.social-links__link--theme-light:hover .social-links__icon, .social-links__link--theme-light:focus .social-links__icon {
+.social-links__link--theme-light:hover .social-links__icon,
+.social-links__link--theme-light:focus .social-links__icon {
   fill: var(--white-color);
 }
 
@@ -555,7 +628,8 @@ img {
   fill: var(--white-color);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.social-links__link--theme-dark:hover, .social-links__link--theme-dark:focus {
+.social-links__link--theme-dark:hover,
+.social-links__link--theme-dark:focus {
   background-color: var(--accent-color);
 }
 
@@ -566,7 +640,8 @@ img {
   top: 0;
   left: 0;
   background-color: rgba(0, 0, 0, 0.2);
-  transition: opacity 1000ms cubic-bezier(0.4, 0, 0.2, 1), visibility 1000ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: opacity 1000ms cubic-bezier(0.4, 0, 0.2, 1),
+    visibility 1000ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .backdrop.is-hidden {
@@ -583,7 +658,8 @@ img {
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: var(--white-color);
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
 }
 
@@ -687,7 +763,7 @@ img {
   color: var(--main-color);
 }
 .policy__field:before {
-  content: "";
+  content: '';
   display: inline-block;
   margin-right: 9px;
   width: 16px;
@@ -736,7 +812,8 @@ img {
   letter-spacing: 0.03em;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.address__link:hover, .address__link:focus {
+.address__link:hover,
+.address__link:focus {
   color: var(--accent-color);
 }
 
@@ -777,7 +854,8 @@ img {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/banner/banner-img.jpg);
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(../images/banner/banner-img.jpg);
 }
 
 .hero-banner__title {
@@ -876,7 +954,8 @@ img {
 .team__item {
   width: calc((100% - 90px) / 4);
   margin-right: 30px;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
   background-color: var(--white-color);
   text-align: center;
@@ -929,14 +1008,16 @@ img {
   fill: var(--icons-color);
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.clients__link:hover, .clients__link:focus {
+.clients__link:hover,
+.clients__link:focus {
   border: 1px solid var(--accent-color);
 }
 
 .clients__icon {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.clients__link:hover .clients__icon, .clients__link:focus .clients__icon {
+.clients__link:hover .clients__icon,
+.clients__link:focus .clients__icon {
   fill: var(--accent-color);
 }
 
@@ -953,7 +1034,7 @@ img {
 .projects__item:nth-child(3n) {
   margin-right: 0px;
 }
-.projects__item:nth-last-child(-n+3) {
+.projects__item:nth-last-child(-n + 3) {
   margin-bottom: 0px;
 }
 
@@ -964,8 +1045,10 @@ img {
   line-height: 1.88;
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.projects__link:hover, .projects__link:focus {
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+.projects__link:hover,
+.projects__link:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .projects__card-wrapper {
@@ -1006,7 +1089,8 @@ img {
   background-color: rgba(33, 150, 243, 0.9);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.projects__link:hover .projects__img-text, .projects__link:focus .projects__img-text {
+.projects__link:hover .projects__img-text,
+.projects__link:focus .projects__img-text {
   transform: translatey(-100%);
 }
 
@@ -1080,4 +1164,4 @@ img {
 .footer__container {
   display: flex;
   align-items: baseline;
-}/*# sourceMappingURL=main.css.map */
+} /*# sourceMappingURL=main.css.map */
