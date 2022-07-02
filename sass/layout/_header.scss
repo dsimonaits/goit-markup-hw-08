@@ -1,14 +1,14 @@
 .page-header {
     border-bottom: 1px solid #ececec;
-    padding-top: 24px;
-    padding-bottom: 25px;
+    
 }
 
-.page-header__container {
-    display: flex;
+@media screen and (max-width: 480px) {
+    .page-header {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    }
+
 }
 
-.header-logo {
-    margin-right: 93px;
-}
 
