@@ -461,6 +461,7 @@ img {
   font-size: 24px;
   line-height: 1.13;
   text-decoration: none;
+  letter-spacing: 0.03em;
 }
 
 .logo__span--dark {
@@ -475,6 +476,12 @@ img {
   .logo {
     font-size: 24px;
     line-height: 1.13;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .logo {
+    font-size: 26px;
+    line-height: 1.17;
   }
 }
 .main-nav {
@@ -539,6 +546,11 @@ img {
     border-radius: 2px;
   }
 }
+@media screen and (min-width: 1200px) {
+  .site-nav {
+    margin-left: 93px;
+  }
+}
 .contacts-nav {
   display: none;
 }
@@ -554,6 +566,7 @@ img {
     display: flex;
     align-items: center;
     color: var(--main-color);
+    fill: var(--main-color);
     font-weight: 500;
     font-size: 12px;
     line-height: 1.17;
@@ -571,7 +584,6 @@ img {
 }
 .contacts-nav__icon {
   margin-right: 8px;
-  fill: var(--main-color);
 }
 
 @media screen and (min-width: 1200px) {
@@ -586,6 +598,21 @@ img {
 
   .contacts-nav__icon {
     margin-right: 10px;
+  }
+
+  .contacts-nav__link {
+    font-size: 14px;
+    line-height: 1.14;
+  }
+
+  .icon-envelope {
+    width: 16px;
+    height: 12px;
+  }
+
+  .icon-smartphone {
+    width: 10px;
+    height: 16px;
   }
 }
 .social-links {
@@ -994,12 +1021,21 @@ img {
 @media screen and (min-width: 1200px) {
   .hero {
     min-height: 600px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-size: cover;
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/desktop/header-img.jpg);
   }
 }
 @media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
   .hero {
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/desktop/header-img@2x.jpg);
+  }
+}
+@media screen and (min-width: 1200px) {
+  .hero__title {
+    font-size: 44px;
+    line-height: 1.36;
   }
 }
 .advantages__list {

@@ -59,6 +59,9 @@
 @media screen and (min-width: 1200px) {
     .hero {
         min-height: 600px;
+        padding-top: 200px;
+        padding-bottom: 200px;
+        background-size: cover;
         background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/desktop/header-img.jpg);
     }
 
@@ -68,6 +71,11 @@
         .hero {
             background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/desktop/header-img@2x.jpg);
         }
+    }
+
+    .hero__title {
+        font-size: 44px;
+        line-height: 1.36;
     }
 
 }

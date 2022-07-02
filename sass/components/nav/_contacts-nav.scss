@@ -15,6 +15,7 @@
         display: flex;
         align-items: center;
         color: var(--main-color);
+        fill: var(--main-color);
 
         font-weight: 500;
         font-size: 12px;
@@ -37,7 +38,6 @@
 }
     .contacts-nav__icon {
         margin-right: 8px;
-        fill: var(--main-color);
     }
 
 @media screen and (min-width: 1200px) {
@@ -52,8 +52,20 @@
     .contacts-nav__icon {
         margin-right: 10px;
     }    
+
+    .contacts-nav__link {
+        font-size: 14px;
+        line-height: 1.14;
+    }
+
+    .icon-envelope {
+        width: 16px;
+        height: 12px;
+    }
+    .icon-smartphone {
+        width: 10px;
+        height: 16px;
+    }
+
+    
 }
-
-
-// }
-
