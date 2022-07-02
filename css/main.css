@@ -318,7 +318,6 @@ img {
   width: 100%;
   padding-left: 15px;
   padding-right: 15px;
-  overflow-y: auto;
 }
 
 @media screen and (min-width: 480px) {
@@ -752,6 +751,7 @@ img {
 @media screen and (max-width: 768px) {
   .mobile-menu {
     position: fixed;
+    overflow: scroll;
     top: 0;
     left: 0;
     width: 100%;
