@@ -4,22 +4,13 @@
     align-items: center;
     justify-content: space-between;
 }
-
-@media screen and (max-width: 767px) {
-    
-    .mobile-menu__open-button {
-        border: none;
-        background-color: transparent;
-        padding: 0;
-        line-height: 0;
-  }
+.mobile-menu__open-button {
+    border: none;
+    background-color: transparent;
+    padding: 0;
+    line-height: 0;
 }
 
-@media screen and (min-width: 4) {
-    .mobile-menu__open-button {
-        display: none;
-    }
-}
 
 @media screen and (min-width: 768px) {
     .mobile-menu__open-button {
