@@ -7,6 +7,9 @@
     text-align: center;
 }
 
+.section--other-background {
+    background-color: var(--extra-color);
+}
 
 @media screen and (max-width: 1199px){
     .section {
@@ -30,11 +33,3 @@
     }
 }
 
-
-
-
-
-
-// .section--other-background {
-//     background-color: var(--extra-color);
-// }
