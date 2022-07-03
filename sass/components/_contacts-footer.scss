@@ -1,10 +1,12 @@
-.address {
-    width: 231px;
-    margin-top: 20px;
+.contacts__footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.address__item:not(:last-child) {
-    margin-bottom: 9px;
+.address {
+    margin-top: 20px;
+    text-align: center;
 }
 
 .address__link {
@@ -29,3 +31,19 @@
 
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+@media screen and (max-width:767px) {
+
+
+    .address__item:not(:last-child) {
+        margin-bottom: 8px;
+    }
+}
+
+// .address {
+//     width: 231px;
+//     margin-top: 20px;
+// }
+
+
+
