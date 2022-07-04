@@ -1,6 +1,13 @@
+
 .filter {
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 767px) {
+    .filter__item:nth-last-child(-n +2) {
+        margin-top: 15px;
+    }
 }
 
 .filter__item:not(:last-child) {

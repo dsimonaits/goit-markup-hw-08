@@ -4,6 +4,10 @@
 
 }
 
+.social-links__item {
+    display: inline-block;
+}
+
 .social-links__item:not(:last-child) {
     margin-right: 10px;
 }
