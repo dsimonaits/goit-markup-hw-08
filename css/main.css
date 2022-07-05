@@ -1530,6 +1530,9 @@ img {
   .projects__item:nth-last-child(-n+3) {
     margin-bottom: 0px;
   }
+  .projects__item:nth-last-child(-n+3) {
+    margin-bottom: 0px;
+  }
 }
 .footer {
   padding-top: 60px;
