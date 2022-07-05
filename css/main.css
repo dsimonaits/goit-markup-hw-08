@@ -990,6 +990,7 @@ img {
 @media screen and (min-width: 1200px) {
   .subscribe__container {
     margin-top: 0px;
+    text-align: left;
   }
 
   .subscribe__form {
