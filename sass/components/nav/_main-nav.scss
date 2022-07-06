@@ -1,8 +1,3 @@
-
-.main-nav {
-    justify-content: space-between;
-}
-
 .mobile-menu__open-button {
     border: none;
     background-color: transparent;
@@ -21,8 +16,19 @@
 
 
 @media screen and (min-width: 768px) {
+    .main-nav {
+    margin-left: 88px;
+    }    
+
+
     .mobile-menu__open-button {
         display: none;
     }
     
+}
+
+@media screen and (min-width: 1200px) {
+    .main-nav {
+        margin-left: 93px;
+    }
 }
