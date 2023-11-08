@@ -26,6 +26,10 @@ img {
     height: auto;
 }
 
-html {
+html, body {
+    scroll-behavior: smooth;
+}
+
+html:focus-within {
     scroll-behavior: smooth;
 }

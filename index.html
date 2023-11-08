@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="WebStudio company demo website" />
     <title>Web studio</title>
     <link rel="stylesheet" href="./css/main.min.css" />
   </head>
@@ -11,12 +12,16 @@
     <!--Header-->
     <header class="page-header">
       <div class="container page-header__container">
-        <a href="./index.html" class="logo header-logo"
+        <a href="./index.html" class="logo header-logo" aria-label="Web Studio company logo"
           >Web<span class="logo__span--dark">Studio</span></a
         >
 
         <div class="mobile-menu" data-menu>
-          <button class="mobile-menu__close-button" data-menu-close>
+          <button
+            aria-label="close mobile menu button"
+            class="mobile-menu__close-button"
+            data-menu-close
+          >
             <svg class="mobile-menu__close-icon" width="40px" height="40px">
               <use class="icon-close" href="./images/icons.svg#icon-close-menu"></use>
             </svg>
@@ -27,36 +32,62 @@
               <a
                 href="./index.html"
                 class="mobile-menu-site-nav__link mobile-menu-site-nav__link--active"
+                aria-label="Link to Studio Html"
                 >Studio</a
               >
             </li>
             <li class="mobile-menu-site-nav__item">
-              <a href="./portfolio.html" class="mobile-menu-site-nav__link">Portfolio</a>
+              <a
+                href="./portfolio.html"
+                class="mobile-menu-site-nav__link"
+                aria-label="Link to Portfolio Html"
+                >Portfolio</a
+              >
             </li>
             <li class="mobile-menu-site-nav__item">
-              <a href="#contacts" class="mobile-menu-site-nav__link">Contacts</a>
+              <a href="#contacts" class="mobile-menu-site-nav__link" aria-label="Link to Contacts"
+                >Contacts</a
+              >
             </li>
           </ul>
 
           <div class="mobile-menu-contacts">
-            <a href="tel:+380961111111" class="mobile-menu-contacts__tel"> +38 096 111 11 11 </a>
+            <a
+              href="tel:+380961111111"
+              class="mobile-menu-contacts__tel"
+              aria-label="company number"
+            >
+              +38 096 111 11 11
+            </a>
 
-            <a href="mailto:info@devstudio.com" class="mobile-menu-contacts__mail">
+            <a
+              href="mailto:info@devstudio.com"
+              class="mobile-menu-contacts__mail"
+              aria-label="company email"
+            >
               info@devstudio.com
             </a>
 
             <ul class="mobile-menu-social-links">
               <li class="mobile-menu-social-links__item">
-                <a href="" class="mobile-menu-social-links__link">Instagram</a>
+                <a href="#" class="mobile-menu-social-links__link" aria-label="instagram link"
+                  >Instagram</a
+                >
               </li>
               <li class="mobile-menu-social-links__item">
-                <a href="" class="mobile-menu-social-links__link">Twitter</a>
+                <a href="#" class="mobile-menu-social-links__link" aria-label="twitter link"
+                  >Twitter</a
+                >
               </li>
               <li class="mobile-menu-social-links__item">
-                <a href="" class="mobile-menu-social-links__link">Facebook</a>
+                <a href="#" class="mobile-menu-social-links__link" aria-label="facebook link"
+                  >Facebook</a
+                >
               </li>
               <li class="mobile-menu-social-links__item">
-                <a href="" class="mobile-menu-social-links__link">LinkedIn</a>
+                <a aria-label="linkedin link" href="#" class="mobile-menu-social-links__link"
+                  >LinkedIn</a
+                >
               </li>
             </ul>
           </div>
@@ -65,14 +96,26 @@
         <nav class="main-nav">
           <ul class="site-nav">
             <li class="site-nav__item">
-              <a href="./index.html" class="site-nav__link site-nav__link--active">Studio</a>
+              <a
+                href="./index.html"
+                class="site-nav__link site-nav__link--active"
+                aria-label="link to studio html"
+                >Studio</a
+              >
             </li>
             <li class="site-nav__item">
-              <a href="./portfolio.html" class="site-nav__link">Portfolio</a>
+              <a href="./portfolio.html" class="site-nav__link" aria-label="link to portfolio html"
+                >Portfolio</a
+              >
             </li>
             <li class="site-nav__item"><a href="#contacts" class="site-nav__link">Contacts</a></li>
           </ul>
-          <button type="button" class="mobile-menu__open-button" data-menu-open>
+          <button
+            aria-label="mobile menu burger button"
+            type="button"
+            class="mobile-menu__open-button"
+            data-menu-open
+          >
             <svg class="open-btn__icon" width="40" height="40">
               <use href="./images/icons.svg#icon-burger"></use>
             </svg>
@@ -81,7 +124,11 @@
 
         <ul class="contacts-nav">
           <li class="contacts-nav__item contact-nav__item--extra-margin">
-            <a href="mailto:info@devstudio.com" class="contacts-nav__link">
+            <a
+              aria-label="company email link"
+              href="mailto:info@devstudio.com"
+              class="contacts-nav__link"
+            >
               <svg class="icon-envelope contacts-nav__icon" width="14px" height="10px">
                 <use href="./images/icons.svg#icon-envelope-big"></use>
               </svg>
@@ -89,7 +136,11 @@
             >
           </li>
           <li class="contacts-nav__item">
-            <a href="tel:+380961111111" class="contacts-nav__link">
+            <a
+              aria-label="company telephone number"
+              href="tel:+380961111111"
+              class="contacts-nav__link"
+            >
               <svg class="icon-smartphone contacts-nav__icon" width="10px" height="14px">
                 <use href="./images/icons.svg#icon-smartphone-big"></use>
               </svg>
@@ -109,7 +160,14 @@
             Effective solutions <br />
             for your business
           </h1>
-          <button type="button" class="button hero__button" data-modal-open>Order service</button>
+          <button
+            aria-label="order service button"
+            type="button"
+            class="button hero__button"
+            data-modal-open
+          >
+            Order service
+          </button>
         </div>
       </section>
 
@@ -316,28 +374,44 @@
                 <p class="team__text" lang="en">Product Designer</p>
                 <ul class="social-links team__social-links">
                   <li class="social-links__item">
-                    <a href="" class="social-links__link social-links__link--theme-light">
+                    <a
+                      aria-label="instagram link"
+                      href="#"
+                      class="social-links__link social-links__link--theme-light"
+                    >
                       <svg class="social-links__icon" width="20px" height="20px">
                         <use href="./images/icons.svg#icon-instagram"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="social-links__item">
-                    <a href="" class="social-links__link social-links__link--theme-light">
+                    <a
+                      aria-label="twitter link"
+                      href="#"
+                      class="social-links__link social-links__link--theme-light"
+                    >
                       <svg class="social-links__icon" width="20px" height="20px">
                         <use href="./images/icons.svg#icon-twitter"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="social-links__item">
-                    <a href="" class="social-links__link social-links__link--theme-light">
+                    <a
+                      aria-label="facebook link"
+                      href="#"
+                      class="social-links__link social-links__link--theme-light"
+                    >
                       <svg class="social-links__icon" width="20px" height="20px">
                         <use href="./images/icons.svg#icon-facebook"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="social-links__item">
-                    <a href="" class="social-links__link social-links__link--theme-light">
+                    <a
+                      aria-label="linkedin link"
+                      href="#"
+                      class="social-links__link social-links__link--theme-light"
+                    >
                       <svg class="social-links__icon" width="20px" height="20px">
                         <use href="./images/icons.svg#icon-linkedin"></use>
                       </svg>
@@ -404,28 +478,44 @@
                 <p class="team__text" lang="en">Frontend Developer</p>
                 <ul class="social-links team__social-links">
                   <li class="social-links__item">
-                    <a href="" class="social-links__link social-links__link--theme-light">
+                    <a
+                      aria-label="instagram link"
+                      href="#"
+                      class="social-links__link social-links__link--theme-light"
+                    >
                       <svg class="social-links__icon" width="20px" height="20px">
                         <use href="./images/icons.svg#icon-instagram"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="social-links__item">
-                    <a href="" class="social-links__link social-links__link--theme-light">
+                    <a
+                      aria-label="twitter link"
+                      href="#"
+                      class="social-links__link social-links__link--theme-light"
+                    >
                       <svg class="social-links__icon" width="20px" height="20px">
                         <use href="./images/icons.svg#icon-twitter"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="social-links__item">
-                    <a href="" class="social-links__link social-links__link--theme-light">
+                    <a
+                      aria-label="facebook link"
+                      href="#"
+                      class="social-links__link social-links__link--theme-light"
+                    >
                       <svg class="social-links__icon" width="20px" height="20px">
                         <use href="./images/icons.svg#icon-facebook"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="social-links__item">
-                    <a href="" class="social-links__link social-links__link--theme-light">
+                    <a
+                      aria-label="linkedin link"
+                      href="#"
+                      class="social-links__link social-links__link--theme-light"
+                    >
                       <svg class="social-links__icon" width="20px" height="20px">
                         <use href="./images/icons.svg#icon-linkedin"></use>
                       </svg>
@@ -492,28 +582,44 @@
                 <p class="team__text" lang="en">Marketing</p>
                 <ul class="social-links team__social-links">
                   <li class="social-links__item">
-                    <a href="" class="social-links__link social-links__link--theme-light">
+                    <a
+                      aria-label="instagram link"
+                      href="#"
+                      class="social-links__link social-links__link--theme-light"
+                    >
                       <svg class="social-links__icon" width="20px" height="20px">
                         <use href="./images/icons.svg#icon-instagram"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="social-links__item">
-                    <a href="" class="social-links__link social-links__link--theme-light">
+                    <a
+                      aria-label="twitter link"
+                      href="#"
+                      class="social-links__link social-links__link--theme-light"
+                    >
                       <svg class="social-links__icon" width="20px" height="20px">
                         <use href="./images/icons.svg#icon-twitter"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="social-links__item">
-                    <a href="" class="social-links__link social-links__link--theme-light">
+                    <a
+                      aria-label="facebook link"
+                      href="#"
+                      class="social-links__link social-links__link--theme-light"
+                    >
                       <svg class="social-links__icon" width="20px" height="20px">
                         <use href="./images/icons.svg#icon-facebook"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="social-links__item">
-                    <a href="" class="social-links__link social-links__link--theme-light">
+                    <a
+                      aria-label="linkedin link"
+                      href="#"
+                      class="social-links__link social-links__link--theme-light"
+                    >
                       <svg class="social-links__icon" width="20px" height="20px">
                         <use href="./images/icons.svg#icon-linkedin"></use>
                       </svg>
@@ -580,28 +686,44 @@
                 <p class="team__text" lang="en">UI Designer</p>
                 <ul class="social-links team__social-links">
                   <li class="social-links__item">
-                    <a href="" class="social-links__link social-links__link--theme-light">
+                    <a
+                      aria-label="instagram link"
+                      href="#"
+                      class="social-links__link social-links__link--theme-light"
+                    >
                       <svg class="social-links__icon" width="20px" height="20px">
                         <use href="./images/icons.svg#icon-instagram"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="social-links__item">
-                    <a href="" class="social-links__link social-links__link--theme-light">
+                    <a
+                      aria-label="twitter link"
+                      href="#"
+                      class="social-links__link social-links__link--theme-light"
+                    >
                       <svg class="social-links__icon" width="20px" height="20px">
                         <use href="./images/icons.svg#icon-twitter"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="social-links__item">
-                    <a href="" class="social-links__link social-links__link--theme-light">
+                    <a
+                      aria-label="facebook link"
+                      href="#"
+                      class="social-links__link social-links__link--theme-light"
+                    >
                       <svg class="social-links__icon" width="20px" height="20px">
                         <use href="./images/icons.svg#icon-facebook"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="social-links__item">
-                    <a href="" class="social-links__link social-links__link--theme-light">
+                    <a
+                      aria-label="linkedin link"
+                      href="#"
+                      class="social-links__link social-links__link--theme-light"
+                    >
                       <svg class="social-links__icon" width="20px" height="20px">
                         <use href="./images/icons.svg#icon-linkedin"></use>
                       </svg>
@@ -620,42 +742,42 @@
           <h2 class="section__title">Regular customers</h2>
           <ul class="clients__list">
             <li class="clients__item">
-              <a href="" class="clients__link">
+              <a aria-label="client1" href="#" class="clients__link">
                 <svg class="clients__icon" width="106" height="60">
                   <use href="./images/icons.svg#icon-client1"></use>
                 </svg>
               </a>
             </li>
             <li class="clients__item">
-              <a href="" class="clients__link">
+              <a aria-label="client2" href="#" class="clients__link">
                 <svg class="clients__icon" width="106" height="60">
                   <use href="./images/icons.svg#icon-client2"></use>
                 </svg>
               </a>
             </li>
             <li class="clients__item">
-              <a href="" class="clients__link">
+              <a aria-label="client 3" href="#" class="clients__link">
                 <svg class="clients__icon" width="106" height="60">
                   <use href="./images/icons.svg#icon-client3"></use>
                 </svg>
               </a>
             </li>
             <li class="clients__item">
-              <a href="" class="clients__link">
+              <a aria-label="client 4" href="#" class="clients__link">
                 <svg class="clients__icon" width="106" height="60">
                   <use href="./images/icons.svg#icon-client4"></use>
                 </svg>
               </a>
             </li>
             <li class="clients__item">
-              <a href="" class="clients__link">
+              <a aria-label="client 5" href="#" class="clients__link">
                 <svg class="clients__icon" width="106" height="60">
                   <use href="./images/icons.svg#icon-client5"></use>
                 </svg>
               </a>
             </li>
             <li class="clients__item">
-              <a href="" class="clients__link">
+              <a aria-label="client 6" href="#" class="clients__link">
                 <svg class="clients__icon" width="106" height="60">
                   <use href="./images/icons.svg#icon-client6"></use>
                 </svg>
@@ -670,13 +792,14 @@
     <footer class="footer" id="contacts">
       <div class="container footer__container">
         <div class="contacts__footer">
-          <a class="logo footer__logo" href="./index.html"
+          <a aria-label="Web Studio company logo" class="logo footer__logo" href="./index.html"
             >Web<span class="logo__span--light">Studio</span></a
           >
           <address class="address">
             <ul class="address__list">
               <li class="address__item">
                 <a
+                  aria-label="company address"
                   href="https://goo.gl/maps/AirsbdC57sYQPZAz8"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -686,10 +809,17 @@
                 </a>
               </li>
               <li class="address__item">
-                <a href="mailto:info@dexample.com" class="address__link">info@example.com</a>
+                <a aria-label="company email" href="mailto:info@dexample.com" class="address__link"
+                  >info@example.com</a
+                >
               </li>
               <li class="address__item">
-                <a href="tel:+380991111111" class="address__link">+38 099 111 11 11</a>
+                <a
+                  aria-label="company telephone number"
+                  href="tel:+380991111111"
+                  class="address__link"
+                  >+38 099 111 11 11</a
+                >
               </li>
             </ul>
           </address>
@@ -699,28 +829,44 @@
           <p class="connect__title">join</p>
           <ul class="social-links connect__social-links">
             <li class="social-links__item">
-              <a href="" class="social-links__link social-links__link--theme-dark">
+              <a
+                aria-label="instagram link"
+                href="#"
+                class="social-links__link social-links__link--theme-dark"
+              >
                 <svg class="social-links__icon" width="20px" height="20px">
                   <use href="./images/icons.svg#icon-instagram"></use>
                 </svg>
               </a>
             </li>
             <li class="social-links__item">
-              <a href="" class="social-links__link social-links__link--theme-dark">
+              <a
+                aria-label="twitter link"
+                href="#"
+                class="social-links__link social-links__link--theme-dark"
+              >
                 <svg class="social-links__icon" width="20px" height="20px">
                   <use href="./images/icons.svg#icon-twitter"></use>
                 </svg>
               </a>
             </li>
             <li class="social-links__item">
-              <a href="" class="social-links__link social-links__link--theme-dark">
+              <a
+                aria-label="facebook link"
+                href="#"
+                class="social-links__link social-links__link--theme-dark"
+              >
                 <svg class="social-links__icon" width="20px" height="20px">
                   <use href="./images/icons.svg#icon-facebook"></use>
                 </svg>
               </a>
             </li>
             <li class="social-links__item">
-              <a href="" class="social-links__link social-links__link--theme-dark">
+              <a
+                aria-label="linkedin link"
+                href="#"
+                class="social-links__link social-links__link--theme-dark"
+              >
                 <svg class="social-links_icon" width="20px" height="20px">
                   <use href="./images/icons.svg#icon-linkedin"></use>
                 </svg>
@@ -741,7 +887,11 @@
               placeholder="E-mail"
               pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
             />
-            <button type="submit" class="button subscribe__button">
+            <button
+              aria-label="send subscription button"
+              type="submit"
+              class="button subscribe__button"
+            >
               Subscribe
               <svg class="icon-send" width="24px" height="24px">
                 <use href="./images/icons.svg#icon-send"></use>
@@ -755,7 +905,12 @@
     <!-- Modal -->
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-        <button class="modal__close-button" type="button" data-modal-close>
+        <button
+          aria-label="modal close button"
+          class="modal__close-button"
+          type="button"
+          data-modal-close
+        >
           <svg class="modal__close-icon" width="18px" height="18px">
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
@@ -833,16 +988,25 @@
             required
           />
           <label for="user_policy" class="policy__field">
-            I agree with the newsletter and accept &nbsp;<a class="terms-of-an-agreement" href="">
+            I agree with the newsletter and accept &nbsp;<a
+              aria-label="agreement conditions"
+              class="terms-of-an-agreement"
+              href="#"
+            >
               Agreement conditions</a
             ></label
           >
 
-          <button type="submit" class="button modal-contact__button">Send</button>
+          <button
+            aria-label="submit form button"
+            type="submit"
+            class="button modal-contact__button"
+          >
+            Send
+          </button>
         </form>
       </div>
     </div>
-
     <script src="./js/modal.js"></script>
     <script src="./js/menu.js"></script>
   </body>

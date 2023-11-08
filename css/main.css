@@ -143,7 +143,7 @@ summary {
   display: list-item;
 }
 
-/*# sourceMappingURL=/sm/b8ae781793ee4eb86edef3f2a2ac43a5575d063ed8cd287d7553f9f1b2776616.map */
+
 :root {
   --main-color: #757575;
   --secondary-color: #212121;
@@ -316,6 +316,14 @@ img {
   height: auto;
 }
 
+html, body {
+  scroll-behavior: smooth;
+}
+
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
 .container {
   width: 100%;
   padding-left: 15px;
@@ -362,11 +370,9 @@ img {
     padding-top: 94px;
     padding-bottom: 94px;
   }
-
   .section--no-padding-top {
     padding-top: 0px;
   }
-
   .section__title {
     font-size: 36px;
   }
@@ -442,7 +448,6 @@ img {
     flex-wrap: wrap;
     gap: 0px;
   }
-
   .filter__item:not(:last-child) {
     margin-right: 8px;
   }
@@ -510,7 +515,6 @@ img {
   .main-nav {
     margin-left: 88px;
   }
-
   .mobile-menu__open-button {
     display: none;
   }
@@ -529,11 +533,9 @@ img {
     display: flex;
     align-items: center;
   }
-
   .site-nav__item:not(:first-child) {
     margin-left: 50px;
   }
-
   .site-nav__link {
     position: relative;
     color: var(--secondary-color);
@@ -546,7 +548,6 @@ img {
   .site-nav__link:hover, .site-nav__link:focus {
     color: var(--accent-color);
   }
-
   .site-nav__link--active {
     color: var(--accent-color);
   }
@@ -573,7 +574,6 @@ img {
     align-items: center;
     margin-left: auto;
   }
-
   .contacts-nav__link {
     display: flex;
     align-items: center;
@@ -589,7 +589,6 @@ img {
     color: var(--accent-color);
     fill: var(--accent-color);
   }
-
   .contact-nav__item--extra-margin {
     margin-bottom: 10px;
   }
@@ -602,26 +601,21 @@ img {
   .contacts-nav {
     display: flex;
   }
-
   .contact-nav__item--extra-margin {
     margin-right: 30px;
     margin-bottom: 0px;
   }
-
   .contacts-nav__icon {
     margin-right: 10px;
   }
-
   .contacts-nav__link {
     font-size: 14px;
     line-height: 1.14;
   }
-
   .icon-envelope {
     width: 16px;
     height: 12px;
   }
-
   .icon-smartphone {
     width: 10px;
     height: 16px;
@@ -843,7 +837,6 @@ img {
   .modal {
     width: 528px;
   }
-
   .policy__field {
     font-size: 14px;
     line-height: 1.71;
@@ -876,7 +869,6 @@ img {
   .contacts__footer {
     text-align: center;
   }
-
   .address__item:not(:last-child) {
     margin-bottom: 8px;
   }
@@ -891,7 +883,6 @@ img {
   .contacts__footer {
     margin-right: 70px;
   }
-
   .address__item:not(:last-child) {
     margin-bottom: 9px;
   }
@@ -923,7 +914,6 @@ img {
   .connect__container {
     margin-right: 93px;
   }
-
   .connect__social-links {
     display: flex;
   }
@@ -987,16 +977,13 @@ img {
     margin-top: 0px;
     text-align: left;
   }
-
   .subscribe__form {
     display: flex;
     margin-top: 20px;
   }
-
   .subscribe__input {
     width: 358px;
   }
-
   .subscribe__button {
     margin-top: 0;
     margin-left: 12px;
@@ -1232,7 +1219,6 @@ img {
     justify-content: space-between;
     flex-direction: row;
   }
-
   .advantages__item {
     width: calc((100% - 30px) / 2);
   }
@@ -1260,20 +1246,16 @@ img {
   .section--no-padding-top {
     display: block;
   }
-
   .our-work {
     margin-top: 50px;
     display: flex;
   }
-
   .our-work__item:not(:last-child) {
     margin-right: 30px;
   }
-
   .our-work__wrapper {
     position: relative;
   }
-
   .our-work__text {
     position: absolute;
     left: 0px;
@@ -1341,11 +1323,9 @@ img {
     flex-wrap: wrap;
     justify-content: space-between;
   }
-
   .team__item {
     width: calc((100% - 30px) / 2);
   }
-
   .team__item:nth-child(-n+2) {
     margin-bottom: 30px;
   }
@@ -1357,7 +1337,6 @@ img {
     justify-content: space-between;
     margin-top: 50px;
   }
-
   .team__item {
     width: calc((100% - 90px) / 4);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -1416,7 +1395,6 @@ img {
   .clients__list {
     margin-top: 50px;
   }
-
   .clients__item {
     margin-bottom: 0px;
     width: calc((100% - 150px) / 6);
@@ -1494,7 +1472,6 @@ img {
     flex-wrap: wrap;
     margin-top: 30px;
   }
-
   .projects__item {
     margin-right: 30px;
     width: calc((100% - 30px) / 2);
@@ -1512,7 +1489,6 @@ img {
     flex-wrap: wrap;
     margin-top: 50px;
   }
-
   .projects__item {
     margin-right: 30px;
     margin-bottom: 30px;
@@ -1528,6 +1504,8 @@ img {
 .footer {
   padding-top: 60px;
   padding-bottom: 60px;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
   background-color: var(--grey-color);
   margin-right: auto;
   margin-left: auto;
@@ -1545,7 +1523,6 @@ img {
   .footer__container {
     align-items: baseline;
   }
-
   .footer__container {
     flex-wrap: nowrap;
   }
